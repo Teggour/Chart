@@ -1,0 +1,49 @@
+.chart {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.chart__title {
+    font-size: 20px;
+}
+
+.chart__content {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.chart-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.chart-element__title {
+    width: 30%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.chart-element__value {
+    width: 70%;
+}
+
+.line {
+    width: 100%;
+    background-color: rgba(150, 150, 150, 0.6);
+    position: relative;
+    height: 20px;
+}
+
+.line__time {
+    height: 20px;
+    position: absolute;
+    background-color: rgba(55, 58, 219, 0.4);
+}
