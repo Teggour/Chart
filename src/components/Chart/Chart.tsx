@@ -25,8 +25,6 @@ const Chart: React.FC<IChartProps> = ({ data }) => {
 		[]
 	);
 
-	console.log("newData ", newData);
-
 	return (
 		<div className="chart">
 			<div className="chart__title">SPENT TIME (SECONDS)</div>
